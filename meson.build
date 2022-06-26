@@ -7,3 +7,8 @@ executable('newton',
     'rootnewton.c',
     dependencies : gsl_dep,
     name_suffix : 'js')
+
+executable('integration',
+    'integration.c',
+    dependencies : gsl_dep,
+    name_suffix : 'js')
